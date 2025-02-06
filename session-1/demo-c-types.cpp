@@ -25,8 +25,8 @@ int main()
     unsigned short unsigned_num_1 = 0;
     unsigned short unsigned_num_2 = 0;
     
-    float floating_num_1 = 1e+10;
-    float floating_num_2 = 1e+10 + 100;
+    float floating_num_1 = 0.0;
+    float floating_num_2 = 0.0;
     float floating_num_3 = 0.0;
     
     /**
