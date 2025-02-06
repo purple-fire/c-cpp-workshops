@@ -25,8 +25,8 @@ int main()
     unsigned short unsigned_num_1 = 0;
     unsigned short unsigned_num_2 = 0;
     
-    float floating_num_1 = 0.0;
-    float floating_num_2 = 0.0;
+    float floating_num_1 = 1e+10;
+    float floating_num_2 = 1e+10 + 100;
     float floating_num_3 = 0.0;
     
     /**
@@ -49,6 +49,8 @@ int main()
     print_number(floating_num_1, true);
     print_number(floating_num_2, true);
     print_number(floating_num_3, true);
+    // Floats are strange, right? Use this interactive converter to see what's 
+    // really going on:  https://www.h-schmidt.net/FloatConverter/IEEE754.html
 }
 
 /**
