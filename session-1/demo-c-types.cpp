@@ -17,7 +17,12 @@ int main()
     int integer_num = 0;
     long large_num = 0;
     float decimal_num = 0.0;
-    double precise_num = 0.0;
+    double double_num = 0.0;
+    
+    signed short signed_num = 0;
+    unsigned short unsigned_num = 0;
+    
+    
     
     /**
      * These lines print the values of the variables above.
@@ -28,7 +33,10 @@ int main()
     print_number(integer_num);
     print_number(large_num);
     print_number(decimal_num);
-    print_number(precise_num);
+    print_number(double_num);
+    
+    print_number(signed_num);
+    print_number(unsigned_num);
 }
 
 /**
