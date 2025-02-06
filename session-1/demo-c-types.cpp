@@ -27,6 +27,7 @@ int main()
     
     float floating_num_1 = 0.0;
     float floating_num_2 = 0.0;
+    float floating_num_3 = 0.0;
     
     /**
      * These lines print the values of the variables above.
@@ -47,6 +48,7 @@ int main()
     puts("Floating point representation:");
     print_number(floating_num_1, true);
     print_number(floating_num_2, true);
+    print_number(floating_num_3, true);
 }
 
 /**
