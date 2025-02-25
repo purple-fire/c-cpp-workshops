@@ -13,7 +13,7 @@ int main()
     /**
      * Prints a table of shop items
      */
-    puts("")
+    puts("");
 	puts("||========================================||");
 	puts("||Shop Item Name|Price($)|Quantity|ID Num.||");
 	puts("||========================================||");
