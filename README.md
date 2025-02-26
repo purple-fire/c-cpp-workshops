@@ -8,3 +8,30 @@ Code and resources used for the C/C++ workshop series.
 - [Session 3 Resources](./session-3/)
 - [Session 4 Resources](./session-4/)
 - [Session 5 Resources](./session-5/)
+
+## Session Agenda
+
+### Session 1
+- Introduction to the C Language
+- C Syntax
+- C Data Types
+- Input and Output
+- Conditions and Loops
+
+### Session 2
+- Functions
+- Arrays
+- Structures
+
+### Session 3
+- Pointers
+- More Pointers
+- C Code Project
+
+### Session 4
+- Introduction to the C++ Language
+- Differences Between C and C++
+
+### Session 5
+- Object-Oriented Programming
+- C++ Code Project
