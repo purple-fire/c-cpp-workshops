@@ -12,12 +12,13 @@ int main()
     
     /**
      * Prints a table of shop items
-     *
+     */
     puts("");
 	puts("||========================================||");
 	puts("||Shop Item Name|Price($)|Quantity|ID Num.||");
 	puts("||========================================||");
-    // TODO
+	printf("||%-14s|%+8.2f|%8d|%07d||\n", "Mouse", 9.5, 10, 15);
+	printf("||%-14s|%+8.2f|%8d|%07d||\n", "Keyboard", 15.30, 300, 27);
+	printf("||%-14s|%+8.2f|%8d|%07d||\n", "4D Hypercube", 1.0/0.0, -0xffff, 01337);
 	puts("||----------------------------------------||");
-    */
 }
