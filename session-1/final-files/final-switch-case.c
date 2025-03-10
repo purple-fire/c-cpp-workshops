@@ -6,7 +6,7 @@ int main()
     int counter = 0;
     puts("Enter a number between 1 (low) and 5 (high) "
          "representing how much you like dogs:");
-    scanf("%d", &user_input);
+    scanf_s("%d", &user_input);
     
     /**
      * This switch case will match whatever number the user enters.

@@ -31,6 +31,7 @@ Code and resources used for the C/C++ workshop series.
 ### Session 4
 - Introduction to the C++ Language
 - Differences Between C and C++
+- Basics of C++ Objects
 
 ### Session 5
 - Object-Oriented Programming
