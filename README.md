@@ -3,6 +3,8 @@ Code and resources used for the C/C++ workshop series.
 
 ## Quick Links
 - [Free Online C/C++ Compiler and Debugger](https://www.onlinegdb.com/)
+- [C Standard Library Documentation](https://devdocs.io/c/)
+- [C++ Standard Library Documentation](https://devdocs.io/cpp/)
 - [Session 1 Resources](./session-1/)
 - [Session 2 Resources](./session-2/)
 - [Session 3 Resources](./session-3/)
