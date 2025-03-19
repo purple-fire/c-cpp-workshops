@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "variable-scope.h"
 
 // Variables in the file scope are implicitly "extern"
 int global = 0;

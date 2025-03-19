@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "variable-scope.h"
 
 // Variables in the file scope are implicitly "extern"
 int global = 0;
@@ -26,7 +27,7 @@ int main() {
         printf("  l: %d\n", local);
         printf("  g: %d\n", global);
         int local = 2;
-        int global = 3
+        int global = 3;
         // Variables can be shadowed if redeclared in a new scope
         printf("  l: %d\n", local);
         printf("  g: %d\n", global);
@@ -38,4 +39,22 @@ int main() {
     foo();
     bar();
     printf("g: %d\n", global);
+    puts("");
+
+    // The "extern" functions in variable-scope.h can be accessed anywhere
+    extern_func();
+    // The "static" functions in variable-scope.h cannot be accessed here
+    // static_func(); // Fails to compile
+    // The "static" functions in variable-scope.h can still be accessed in variable-scope.c
+    call_static();
+    puts("");
+    
+    // There is only a single shared instance of each "extern" variable
+    state = 2;
+    printf("Changed extern state to %d\n", state);
+    extern_func();
+    // But each file gets its own copies of every "static" variable
+    size = 10;
+    printf("Changed static size to %d\n", size);
+    extern_func();
 }
