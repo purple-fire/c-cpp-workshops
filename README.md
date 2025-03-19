@@ -3,6 +3,9 @@ Code and resources used for the C/C++ workshop series.
 
 ## Quick Links
 - [Free Online C/C++ Compiler and Debugger](https://www.onlinegdb.com/)
+- [C Standard Library Documentation](https://devdocs.io/c/)
+- [C++ Standard Library Documentation](https://devdocs.io/cpp/)
+- [C/C++ Language Reference](https://en.cppreference.com/w/)
 - [Session 1 Resources](./session-1/)
 - [Session 2 Resources](./session-2/)
 - [Session 3 Resources](./session-3/)
@@ -31,6 +34,7 @@ Code and resources used for the C/C++ workshop series.
 ### Session 4
 - Introduction to the C++ Language
 - Differences Between C and C++
+- Basics of C++ Objects
 
 ### Session 5
 - Object-Oriented Programming
