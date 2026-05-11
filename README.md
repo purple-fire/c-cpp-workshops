@@ -4,7 +4,7 @@ Code and resources used for the C/C++ workshop series.
 # Developer Note:
 This workshop series was canceled due to lack of interest.
 For those interested in continuing development of these workshops,
-the presentations can be found on the Purple Fire Robotics leadership  
+the presentations can be found on the Purple Fire Robotics leadership 
 SharePoint under `/Sections/Events/2024-2025/Workshops`.
 For inquiries about the code or repository, contact Elijah Leucht on Discord.
 
